@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://wanderstay-backend-it7d.onrender.com/api",
+
 });
 
 api.interceptors.request.use((config) => {
